@@ -31,7 +31,7 @@ public class Journey {
             moneySpent = budget * 0.9;
             typeOfVacation = "Hotel";
         }
-        System.out.printf("Somewhere in %s %n", destination);
+        System.out.printf("Somewhere in %s%n", destination);
         System.out.printf("%s - %.2f", typeOfVacation, moneySpent);
     }
 }

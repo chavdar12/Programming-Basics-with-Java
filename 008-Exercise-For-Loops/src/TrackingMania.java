@@ -23,10 +23,11 @@ public class TrackingMania {
                 everest += people;
             }
         }
-        System.out.printf("%.2f%%%n", musala * 1.0 / n * 100);
-        System.out.printf("%.2f%%%n", monblan * 1.0 / n * 100);
-        System.out.printf("%.2f%%%n", kilimandjaro * 1.0 / n * 100);
-        System.out.printf("%.2f%%%n", k2 * 1.0 / n * 100);
-        System.out.printf("%.2f%%%n", everest * 1.0 / n * 100);
+        int total = musala + monblan + kilimandjaro + k2 + everest;
+        System.out.printf("%.2f%%%n", musala * 1.0 / total * 100);
+        System.out.printf("%.2f%%%n", monblan * 1.0 / total * 100);
+        System.out.printf("%.2f%%%n", kilimandjaro * 1.0 / total * 100);
+        System.out.printf("%.2f%%%n", k2 * 1.0 / total * 100);
+        System.out.printf("%.2f%%%n", everest * 1.0 / total * 100);
     }
 }

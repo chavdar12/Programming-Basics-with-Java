@@ -13,6 +13,7 @@ public class SpecialNumbers {
             for (int j = 0; j < currentNumber.length(); j++) {
                 current = Integer.parseInt(String.valueOf(currentNumber.charAt(j)));
                 if (current == 0) {
+                    isSpecial = false;
                     break;
                 }
                 if (n % current == 0) {

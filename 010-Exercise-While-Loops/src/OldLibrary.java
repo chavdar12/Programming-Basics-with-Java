@@ -1,5 +1,3 @@
-package WhileLoop.WhileLoopMoreExercise.src;
-
 import java.util.Scanner;
 
 public class OldLibrary {

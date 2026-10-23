@@ -10,7 +10,7 @@ public class SumOfPrimeAndNonePrimeNumbers {
 
         while (!input.equals("stop")) {
             int number = Integer.parseInt(input);
-            boolean isPrime = true;
+            boolean isPrime = number > 1;
             if (number < 0) {
                 System.out.println("Number is negative.");
                 input = scanner.nextLine();
