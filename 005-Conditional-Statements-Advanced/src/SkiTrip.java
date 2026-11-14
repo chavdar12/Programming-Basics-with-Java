@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Exercise_009 {
+public class SkiTrip {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int days = Integer.parseInt(scanner.nextLine());
